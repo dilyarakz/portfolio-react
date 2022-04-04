@@ -5,6 +5,7 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
+		<link rel="stylesheet" href="assets/css/main.css" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -15,6 +16,7 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -26,18 +28,182 @@
     -->
     <title>React App</title>
   </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+ <body class="is-preload">
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+		<!-- Nav -->
+			<nav id="nav">
+				<ul class="container">
+					<li><a href="#top">About</a></li>
+					<li><a href="#portfolio">Projects</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+		<!-- Home -->
+			<article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						<div class="col-4 col-5-large col-12-medium">
+							<span class="image fit"><img src="images/aboutSelfImg1-1.jpeg" alt="" /></span>
+						</div>
+						<div class="col-8 col-7-large col-12-medium">
+							<header>
+								<h1>Hi. I'm <strong>Dilyara Tulegenova</strong>.</h1>
+							</header>
+							<p> I am junior software developer based in Canada.
+                            I enjoy coding and solve problems.  Love traveling, skiing, skating and hiking.
+                        I interested in backend and front end development.</p>
+						</div>
+					</div>
+				</div>
+			</article>
+		<!-- Work -->
+		
+
+		<!-- Portfolio -->
+			<article id="portfolio" class="wrapper style3">
+				<div class="container">
+					<header>
+						<h2>Here’s some stuff I made recently.</h2>
+						<p></p>
+					</header>
+					<div class="row protfItemText">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://622f2ba2a04abd0b3fdaf465--sleepy-jones-e0b133.netlify.app/" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+								<h3><a href="https://622f2ba2a04abd0b3fdaf465--sleepy-jones-e0b133.netlify.app/">Movie Search App</a></h3>
+								<p><strong>Technologies: </strong> React, JavaScript, Redux, CSS, HTML</p>
+								<div class="protfItemText">
+									<a href="https://github.com/dilyarakz/moviedb">Code</a> <a href="https://622f2ba2a04abd0b3fdaf465--sleepy-jones-e0b133.netlify.app/">Live</a> 
+								</div>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<h3><a href="#">NetFlix Webpage Copy</a></h3>
+								<p><strong>Technologies: </strong> React, JavaScript, CSS, HTML</p>
+								<div class="protfItemText">
+									<a href="https://github.com/dilyarakz/netflix-clone-page">Code</a> <a href="https://exquisite-boba-5b1bef.netlify.app/">Live</a> 
+								</div>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="https://github.com/dilyarakz/register-flights-rest-api" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<h3><a href="https://github.com/dilyarakz/register-flights-rest-api">REST API (back-end)</a></h3>
+								<p><strong>Technologies: </strong> Spring Boot, Java, JUnit, Mockito</p>
+								<div class="protfItemText">
+									<a href="https://github.com/dilyarakz/register-flights-rest-api">Code</a> 
+								</div>
+							</article>
+						</div>
+						<!-- <div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+								<h3><a href="#">Tempus dolore</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+								<h3><a href="#">Feugiat aliquam</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div>
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2">
+								<a href="#" class="image featured"><img src="images/pic06.jpg" alt="" /></a>
+								<h3><a href="#">Sed amet ornare</a></h3>
+								<p>Ornare nulla proin odio consequat.</p>
+							</article>
+						</div> -->
+					</div>
+				</div>
+			</article>
+
+			<!-- <article id="top" class="wrapper style1">
+				<div class="container">
+					<div class="row">
+						
+						<div class="col-8 col-7-large col-12-medium">
+						
+						</div>
+					</div>
+				</div>
+			</article> -->
+
+		<!-- Contact -->
+			<article id="contact" class="wrapper style4">
+				<div class="container medium">
+					<header>
+						<h2>dilyara.tulegenova@gmail.com</h2>
+						<!-- <p>Ornare nulla proin odio consequat sapien vestibulum ipsum.</p> -->
+						<a href="/assets/cv.pdf" download>Download Resume</a>
+					</header>
+					<!-- <div class="row">
+						<div class="col-12">
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-small">
+										<input type="text" name="name" id="name" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="text" name="email" id="email" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<input type="text" name="subject" id="subject" placeholder="Subject" />
+									</div>
+									<div class="col-12">
+										<textarea name="message" id="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" /></li>
+											<li><input type="reset" value="Clear Form" class="alt" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</div> -->
+						<div class="col-12">
+							<!-- <hr />
+							<h3>Find me on ...</h3> -->
+							<ul class="social">
+								<!-- <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
+								<li><a href="https://www.linkedin.com/in/dilyara-tulegenova/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								<!-- <li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li> -->
+								<!-- <li><a href="#" class="icon brands fa-google-plus"><span class="label">Google+</span></a></li> -->
+								<li><a href="https://github.com/dilyarakz" class="icon brands fa-github"><span class="label">Github</span></a></li>
+								<!--
+								<li><a href="#" class="icon solid fa-rss"><span>RSS</span></a></li>
+								<li><a href="#" class="icon brands fa-instagram"><span>Instagram</span></a></li>
+								<li><a href="#" class="icon brands fa-foursquare"><span>Foursquare</span></a></li>
+								<li><a href="#" class="icon brands fa-skype"><span>Skype</span></a></li>
+								<li><a href="#" class="icon brands fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li><a href="#" class="icon brands fa-youtube"><span>YouTube</span></a></li>
+								<li><a href="#" class="icon brands fa-blogger"><span>Blogger</span></a></li>
+								<li><a href="#" class="icon brands fa-flickr"><span>Flickr</span></a></li>
+								<li><a href="#" class="icon brands fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+			
+				</div>
+			</article>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
