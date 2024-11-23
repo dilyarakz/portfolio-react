@@ -21,11 +21,14 @@ export default function Main() {
 						</div>
 						<div class="col-8 col-7-large col-12-medium">
 							<header>
-								<h1>Hi. I'm <strong>Dilyara Tulegenova</strong>.</h1>
+								<h1>Hi, I'm <strong>Dilyara Tulegenova</strong>.</h1>
 							</header>
-							<p> I am junior software developer based in Canada.
-                            I enjoy coding and solve problems.  Love traveling, skiing, skating and hiking.
-                        I interested in backend and front end development.</p>
+							<p> , a Junior Software Developer based in the United States.
+							  I’m passionate about coding and solving complex problems.
+							  With an interest in both front-end and back-end development,
+							  I enjoy working on projects that challenge my skills and foster growth.
+							  Outside of tech, I love traveling, skiing, skating, and hiking—activities
+							  that keep me energized and inspired.</p>
 						</div>
 					</div>
 				</div>
@@ -34,7 +37,7 @@ export default function Main() {
 			<article id="portfolio" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Here’s some stuff I made recently.</h2>
+						<h2>These are a few projects I worked on some time ago: </h2>
 						<p></p>
 					</header>
 					<div class="row protfItemText">
@@ -89,7 +92,7 @@ export default function Main() {
 					<header>
 						<h2>dilyara.tulegenova@gmail.com</h2>
 			
-						<a href="/assets/cv.pdf" download>Download Resume</a>
+						<a href="/assets/resume.pdf" download>Download Resume</a>
 					</header>
 					<div class="row">
 						
